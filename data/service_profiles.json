@@ -1,0 +1,20 @@
+{
+  "data_version": "2026-09-27",
+  "profiles": [
+    {
+      "object_id": "inventory-agent",
+      "object_type": "agent",
+      "version": "v2.0",
+      "updated_at": "2026-09-20T10:00:00+08:00",
+      "configuration": {
+        "query_timeout_ms": 1000,
+        "max_retries": 1
+      },
+      "dependencies": [
+        "inventory-data-adapter"
+      ],
+      "owner": "order-platform-team",
+      "runbook": "Check inventory adapter health and product snapshot freshness before escalation."
+    }
+  ]
+}

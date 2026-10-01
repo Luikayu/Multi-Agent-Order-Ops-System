@@ -1,0 +1,45 @@
+scenarios:
+  inventory_v20_normal:
+    target: inventory_adapter
+    component_version: v2.0
+    delay_ms: 150
+    error_rate: 0.0
+    force_timeout: false
+    invalid_output: false
+    seed: 20260927
+
+  inventory_v21_latency:
+    target: inventory_adapter
+    component_version: v2.1
+    delay_ms: 2300
+    error_rate: 0.0
+    force_timeout: false
+    invalid_output: false
+    seed: 20260927
+
+  inventory_forced_timeout:
+    target: inventory_adapter
+    component_version: v2.1
+    delay_ms: 0
+    error_rate: 0.0
+    force_timeout: true
+    invalid_output: false
+    seed: 20260927
+
+  inventory_random_error:
+    target: inventory_adapter
+    component_version: v2.1
+    delay_ms: 0
+    error_rate: 0.5
+    force_timeout: false
+    invalid_output: false
+    seed: 20260927
+
+  inventory_agent_invalid_output:
+    target: inventory_agent
+    component_version: v2.1
+    delay_ms: 0
+    error_rate: 0.0
+    force_timeout: false
+    invalid_output: true
+    seed: 20260927

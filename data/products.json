@@ -1,0 +1,884 @@
+{
+  "data_version": "2026-09-28.2",
+  "products": [
+    {
+      "sku": "SKU-001",
+      "name": "Demo Mechanical Keyboard",
+      "category": "keyboard",
+      "description": "Balanced mechanical keyboard for programming and office work.",
+      "unit_price": "399.00",
+      "available_quantity": 12,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "87-key",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "office"]
+      }
+    },
+    {
+      "sku": "SKU-002",
+      "name": "Demo Wireless Mouse",
+      "category": "mouse",
+      "description": "Compact wireless mouse for office and travel.",
+      "unit_price": "159.00",
+      "available_quantity": 0,
+      "active": true,
+      "attributes": {
+        "connection": ["wireless"],
+        "weight_class": "light",
+        "suitable_for": ["office", "travel"]
+      }
+    },
+    {
+      "sku": "SKU-003",
+      "name": "Silent Office Mechanical Keyboard",
+      "category": "keyboard",
+      "description": "Quiet mechanical keyboard designed for shared rooms and offices.",
+      "unit_price": "329.00",
+      "available_quantity": 8,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "silent",
+        "connection": ["wired"],
+        "layout": "87-key",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "office", "dormitory"]
+      }
+    },
+    {
+      "sku": "SKU-004",
+      "name": "Travel Low Profile Keyboard",
+      "category": "keyboard",
+      "description": "Lightweight low-profile wireless keyboard for frequent travel.",
+      "unit_price": "459.00",
+      "available_quantity": 5,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless", "wired"],
+        "layout": "75-key",
+        "material": "plastic",
+        "weight_class": "light",
+        "suitable_for": ["programming", "office", "travel"]
+      }
+    },
+    {
+      "sku": "SKU-005",
+      "name": "RGB Gaming Mechanical Keyboard",
+      "category": "keyboard",
+      "description": "Full-size mechanical gaming keyboard with RGB lighting.",
+      "unit_price": "599.00",
+      "available_quantity": 6,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "high",
+        "connection": ["wired"],
+        "layout": "104-key",
+        "material": "plastic",
+        "weight_class": "heavy",
+        "suitable_for": ["gaming"]
+      }
+    },
+    {
+      "sku": "SKU-006",
+      "name": "Budget Silent Office Keyboard",
+      "category": "keyboard",
+      "description": "Affordable and quiet membrane keyboard for office work.",
+      "unit_price": "129.00",
+      "available_quantity": 20,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "membrane",
+        "noise_level": "silent",
+        "connection": ["wired"],
+        "layout": "104-key",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["office"]
+      }
+    },
+    {
+      "sku": "SKU-007",
+      "name": "Flagship Aluminum Wireless Keyboard",
+      "category": "keyboard",
+      "description": "Premium aluminum wireless mechanical keyboard.",
+      "unit_price": "899.00",
+      "available_quantity": 3,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless", "wired"],
+        "layout": "87-key",
+        "material": "aluminum",
+        "weight_class": "heavy",
+        "tier": "flagship",
+        "suitable_for": ["programming", "office"]
+      }
+    },
+    {
+      "sku": "SKU-008",
+      "name": "Ergonomic Split Keyboard",
+      "category": "keyboard",
+      "description": "Split ergonomic keyboard for long typing sessions.",
+      "unit_price": "699.00",
+      "available_quantity": 4,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wired"],
+        "layout": "split",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "office", "ergonomic"]
+      }
+    },
+    {
+      "sku": "SKU-009",
+      "name": "Compact Dorm Keyboard",
+      "category": "keyboard",
+      "description": "Compact quiet keyboard for small desks and dormitories.",
+      "unit_price": "299.00",
+      "available_quantity": 9,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless"],
+        "layout": "68-key",
+        "material": "plastic",
+        "weight_class": "light",
+        "suitable_for": ["programming", "dormitory", "travel"]
+      }
+    },
+    {
+      "sku": "SKU-010",
+      "name": "Full Size Office Keyboard",
+      "category": "keyboard",
+      "description": "Reliable full-size low-noise keyboard with number pad.",
+      "unit_price": "249.00",
+      "available_quantity": 15,
+      "active": true,
+      "attributes": {
+        "keyboard_type": "membrane",
+        "noise_level": "low",
+        "connection": ["wired"],
+        "layout": "104-key",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["office"]
+      }
+    },
+    {
+      "sku": "SKU-011",
+      "name": "Inactive Legacy Keyboard",
+      "category": "keyboard",
+      "description": "Discontinued keyboard retained for inactive-product tests.",
+      "unit_price": "199.00",
+      "available_quantity": 7,
+      "active": false,
+      "attributes": {
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wired"],
+        "layout": "87-key",
+        "material": "plastic",
+        "weight_class": "medium",
+        "suitable_for": ["office"]
+      }
+    },
+    {
+      "sku": "SKU-012",
+      "name": "Ergonomic Wireless Mouse",
+      "category": "mouse",
+      "description": "Ergonomic wireless mouse for long office sessions.",
+      "unit_price": "269.00",
+      "available_quantity": 11,
+      "active": true,
+      "attributes": {
+        "connection": ["wireless"],
+        "weight_class": "medium",
+        "suitable_for": ["office", "ergonomic"]
+      }
+    },
+    {
+      "sku": "SKU-013",
+      "name": "Lightweight Gaming Mouse",
+      "category": "mouse",
+      "description": "Lightweight wired mouse for competitive gaming.",
+      "unit_price": "349.00",
+      "available_quantity": 10,
+      "active": true,
+      "attributes": {
+        "connection": ["wired"],
+        "weight_class": "light",
+        "suitable_for": ["gaming", "travel"]
+      }
+    },
+    {
+      "sku": "SKU-014",
+      "name": "Quiet Office Headset",
+      "category": "headset",
+      "description": "Comfortable headset with microphone for office calls.",
+      "unit_price": "299.00",
+      "available_quantity": 9,
+      "active": true,
+      "attributes": {
+        "connection": ["wired"],
+        "weight_class": "light",
+        "suitable_for": ["office", "calls"],
+        "noise_cancelling": "passive"
+      }
+    },
+    {
+      "sku": "SKU-015",
+      "name": "Portable Laptop Stand",
+      "category": "laptop_stand",
+      "description": "Foldable lightweight stand for travel and office use.",
+      "unit_price": "189.00",
+      "available_quantity": 14,
+      "active": true,
+      "attributes": {
+        "material": "aluminum",
+        "weight_class": "light",
+        "suitable_for": ["office", "travel", "ergonomic"]
+      }
+    },
+    {
+      "sku": "SKU-016",
+      "name": "Logitech MX Keys S",
+      "category": "keyboard",
+      "description": "面向中高端办公用户的全尺寸无线薄膜键盘，强调安静输入、舒适手感和多设备办公体验。",
+      "unit_price": "899.00",
+      "available_quantity": 10,
+      "active": true,
+      "attributes": {
+        "brand": "Logitech",
+        "source_category": "无线办公键盘",
+        "keyboard_type": "membrane",
+        "noise_level": "silent",
+        "connection": ["wireless", "bluetooth"],
+        "layout": "full-size",
+        "weight_class": "medium",
+        "suitable_for": ["office", "programming", "typing", "multi_device"],
+        "suitable_for_zh": ["日常办公", "程序开发", "文字输入", "多设备办公"],
+        "features": ["无线连接", "蓝牙", "多设备切换", "背光", "全尺寸", "可编程按键"],
+        "feature_tags": ["wireless", "bluetooth", "multi_device", "backlit", "full_size", "programmable_keys"]
+      }
+    },
+    {
+      "sku": "SKU-017",
+      "name": "Logitech Pebble Keys 2 K380s",
+      "category": "keyboard",
+      "description": "轻薄紧凑的多设备蓝牙键盘，适合笔记本、平板和移动办公。",
+      "unit_price": "249.00",
+      "available_quantity": 18,
+      "active": true,
+      "attributes": {
+        "brand": "Logitech",
+        "source_category": "便携无线键盘",
+        "keyboard_type": "membrane",
+        "noise_level": "silent",
+        "connection": ["wireless", "bluetooth"],
+        "layout": "compact",
+        "weight_class": "light",
+        "suitable_for": ["travel", "office", "tablet", "typing"],
+        "suitable_for_zh": ["移动办公", "日常办公", "平板输入", "轻度文字输入"],
+        "features": ["蓝牙", "无线连接", "多设备切换", "紧凑布局", "静音输入", "便携"],
+        "feature_tags": ["bluetooth", "wireless", "multi_device", "compact", "silent", "portable"]
+      }
+    },
+    {
+      "sku": "SKU-018",
+      "name": "Logitech K120",
+      "category": "keyboard",
+      "description": "基础全尺寸薄膜键盘，结构简单耐用，适合日常办公和公共电脑使用。",
+      "unit_price": "69.00",
+      "available_quantity": 30,
+      "active": true,
+      "attributes": {
+        "brand": "Logitech",
+        "source_category": "有线办公键盘",
+        "keyboard_type": "membrane",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "full-size",
+        "weight_class": "medium",
+        "suitable_for": ["office", "typing", "education", "shared_computer"],
+        "suitable_for_zh": ["基础办公", "文字输入", "学校机房", "公共电脑"],
+        "features": ["有线连接", "全尺寸", "数字键盘", "薄膜键盘", "即插即用"],
+        "feature_tags": ["wired", "full_size", "numeric_keypad", "plug_and_play", "membrane"]
+      }
+    },
+    {
+      "sku": "SKU-019",
+      "name": "Logitech G915 X TKL",
+      "category": "keyboard",
+      "description": "罗技面向游戏玩家推出的矮轴无线机械键盘，采用紧凑 TKL 布局并兼顾游戏和桌面空间。",
+      "unit_price": "1399.00",
+      "available_quantity": 6,
+      "active": true,
+      "attributes": {
+        "brand": "Logitech",
+        "source_category": "无线机械游戏键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "2.4ghz", "bluetooth"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["fps", "moba", "gaming", "office"],
+        "suitable_for_zh": ["FPS游戏", "MOBA游戏", "桌面游戏", "日常办公"],
+        "features": ["机械轴", "无线连接", "2.4GHz", "蓝牙", "RGB背光", "TKL布局", "矮轴"],
+        "feature_tags": ["mechanical_switch", "wireless", "2.4ghz", "bluetooth", "rgb", "tkl", "low_profile"]
+      }
+    },
+    {
+      "sku": "SKU-020",
+      "name": "Razer Huntsman V3 Pro TKL",
+      "category": "keyboard",
+      "description": "面向竞技游戏的 TKL 键盘，可调触发行程并支持 Rapid Trigger，重点优化快速连续操作。",
+      "unit_price": "1699.00",
+      "available_quantity": 5,
+      "active": true,
+      "attributes": {
+        "brand": "Razer",
+        "source_category": "磁轴游戏键盘",
+        "keyboard_type": "magnetic",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["fps", "competitive_gaming", "esports"],
+        "suitable_for_zh": ["FPS游戏", "竞技游戏", "电竞"],
+        "features": ["磁轴", "Rapid Trigger", "可调触发", "RGB背光", "TKL布局", "可编程按键"],
+        "feature_tags": ["magnetic_switch", "rapid_trigger", "adjustable_actuation", "rgb", "tkl", "programmable_keys"]
+      }
+    },
+    {
+      "sku": "SKU-021",
+      "name": "Razer BlackWidow V4",
+      "category": "keyboard",
+      "description": "雷蛇经典全尺寸机械游戏键盘，拥有独立宏按键和 RGB 灯效，偏向游戏和桌面娱乐使用。",
+      "unit_price": "1299.00",
+      "available_quantity": 7,
+      "active": true,
+      "attributes": {
+        "brand": "Razer",
+        "source_category": "机械游戏键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "full-size",
+        "weight_class": "heavy",
+        "tier": "premium",
+        "suitable_for": ["gaming", "mmorpg", "desk_entertainment", "streaming"],
+        "suitable_for_zh": ["游戏", "MMORPG", "桌面娱乐", "直播"],
+        "features": ["机械轴", "有线连接", "RGB背光", "全尺寸", "宏按键", "多媒体控制"],
+        "feature_tags": ["mechanical_switch", "rgb", "macro_keys", "media_controls", "full_size", "wrist_rest"]
+      }
+    },
+    {
+      "sku": "SKU-022",
+      "name": "SteelSeries Apex Pro TKL Gen 3",
+      "category": "keyboard",
+      "description": "采用可调磁轴的竞技型 TKL 键盘，支持 Rapid Trigger、Rapid Tap 等面向 FPS 的输入功能。",
+      "unit_price": "1699.00",
+      "available_quantity": 5,
+      "active": true,
+      "attributes": {
+        "brand": "SteelSeries",
+        "source_category": "磁轴游戏键盘",
+        "keyboard_type": "magnetic",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["fps", "competitive_gaming", "esports"],
+        "suitable_for_zh": ["FPS游戏", "竞技游戏", "电竞"],
+        "features": ["磁轴", "Rapid Trigger", "可调触发", "RGB背光", "TKL布局", "OLED显示屏"],
+        "feature_tags": ["magnetic_switch", "rapid_trigger", "adjustable_actuation", "rgb", "tkl", "oled_display"]
+      }
+    },
+    {
+      "sku": "SKU-023",
+      "name": "Corsair K70 PRO TKL",
+      "category": "keyboard",
+      "description": "面向竞技游戏的 TKL 霍尔效应键盘，支持可调触发与 Rapid Trigger，并提供丰富的软件自定义功能。",
+      "unit_price": "1199.00",
+      "available_quantity": 8,
+      "active": true,
+      "attributes": {
+        "brand": "Corsair",
+        "source_category": "磁轴游戏键盘",
+        "keyboard_type": "magnetic",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["fps", "gaming", "competitive_gaming"],
+        "suitable_for_zh": ["FPS游戏", "竞技游戏", "桌面游戏"],
+        "features": ["磁轴", "Rapid Trigger", "可调触发", "RGB背光", "TKL布局", "可编程按键"],
+        "feature_tags": ["magnetic_switch", "rapid_trigger", "adjustable_actuation", "rgb", "tkl", "programmable_keys"]
+      }
+    },
+    {
+      "sku": "SKU-024",
+      "name": "ASUS ROG Azoth X",
+      "category": "keyboard",
+      "description": "75% 配列高端机械键盘，融合客制化结构、三模连接和 OLED 屏幕，兼顾游戏和键盘手感。",
+      "unit_price": "2299.00",
+      "available_quantity": 4,
+      "active": true,
+      "attributes": {
+        "brand": "ASUS ROG",
+        "source_category": "高端机械游戏键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "2.4ghz", "bluetooth"],
+        "layout": "75%",
+        "weight_class": "heavy",
+        "tier": "premium",
+        "suitable_for": ["gaming", "desk_setup", "enthusiast", "office"],
+        "suitable_for_zh": ["高端游戏", "桌面搭建", "机械键盘爱好者", "日常办公"],
+        "features": ["机械轴", "热插拔", "无线连接", "蓝牙", "2.4GHz", "RGB背光", "OLED显示屏", "75%布局"],
+        "feature_tags": ["mechanical_switch", "tri_mode", "wireless", "bluetooth", "2.4ghz", "oled_display", "hot_swappable", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-025",
+      "name": "Wooting 80HE",
+      "category": "keyboard",
+      "description": "以低延迟和霍尔效应磁轴著称的竞技键盘，可精细调整按键触发位置，主要面向高强度 FPS 玩家。",
+      "unit_price": "1599.00",
+      "available_quantity": 6,
+      "active": true,
+      "attributes": {
+        "brand": "Wooting",
+        "source_category": "磁轴游戏键盘",
+        "keyboard_type": "magnetic",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["fps", "competitive_gaming", "esports"],
+        "suitable_for_zh": ["FPS游戏", "电竞", "竞技游戏"],
+        "features": ["磁轴", "Rapid Trigger", "可调触发", "高回报率", "RGB背光", "TKL布局", "可编程按键"],
+        "feature_tags": ["magnetic_switch", "rapid_trigger", "adjustable_actuation", "high_polling_rate", "rgb", "tkl", "programmable_keys"]
+      }
+    },
+    {
+      "sku": "SKU-026",
+      "name": "Keychron K2 HE",
+      "category": "keyboard",
+      "description": "75% 布局无线磁轴键盘，在机械键盘的通用性基础上加入可调触发和 Rapid Trigger。",
+      "unit_price": "999.00",
+      "available_quantity": 9,
+      "active": true,
+      "attributes": {
+        "brand": "Keychron",
+        "source_category": "磁轴机械键盘",
+        "keyboard_type": "magnetic",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "75%",
+        "weight_class": "medium",
+        "suitable_for": ["gaming", "programming", "office", "enthusiast"],
+        "suitable_for_zh": ["游戏", "程序开发", "办公", "机械键盘爱好者"],
+        "features": ["磁轴", "Rapid Trigger", "可调触发", "热插拔", "蓝牙", "2.4GHz", "有线连接", "75%布局"],
+        "feature_tags": ["magnetic_switch", "rapid_trigger", "adjustable_actuation", "hot_swappable", "bluetooth", "2.4ghz", "wired", "75_percent"]
+      }
+    },
+    {
+      "sku": "SKU-027",
+      "name": "Keychron Q1 Max",
+      "category": "keyboard",
+      "description": "采用全铝机身和 Gasket 结构的 75% 无线机械键盘，强调客制化能力与输入手感。",
+      "unit_price": "1499.00",
+      "available_quantity": 7,
+      "active": true,
+      "attributes": {
+        "brand": "Keychron",
+        "source_category": "客制化机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz"],
+        "layout": "75%",
+        "material": "aluminum",
+        "weight_class": "heavy",
+        "tier": "premium",
+        "suitable_for": ["programming", "typing", "office", "enthusiast"],
+        "suitable_for_zh": ["程序开发", "文字输入", "办公", "机械键盘爱好者"],
+        "features": ["机械轴", "热插拔", "无线连接", "蓝牙", "2.4GHz", "RGB背光", "QMK/VIA", "75%布局"],
+        "feature_tags": ["mechanical_switch", "hot_swappable", "wireless", "bluetooth", "2.4ghz", "rgb", "qmk_via", "75_percent"]
+      }
+    },
+    {
+      "sku": "SKU-028",
+      "name": "Keychron K3 Max",
+      "category": "keyboard",
+      "description": "轻薄的 75% 无线机械键盘，采用矮轴设计，适合希望获得机械手感又不喜欢厚重键盘的用户。",
+      "unit_price": "699.00",
+      "available_quantity": 12,
+      "active": true,
+      "attributes": {
+        "brand": "Keychron",
+        "source_category": "矮轴机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless", "bluetooth", "2.4ghz"],
+        "layout": "75%",
+        "weight_class": "light",
+        "suitable_for": ["programming", "travel", "office", "light_gaming"],
+        "suitable_for_zh": ["程序开发", "移动办公", "日常办公", "轻度游戏"],
+        "features": ["机械轴", "矮轴", "无线连接", "蓝牙", "2.4GHz", "RGB背光", "75%布局"],
+        "feature_tags": ["mechanical_switch", "low_profile", "wireless", "bluetooth", "2.4ghz", "rgb", "75_percent"]
+      }
+    },
+    {
+      "sku": "SKU-029",
+      "name": "NuPhy Air75 V2",
+      "category": "keyboard",
+      "description": "75% 矮轴三模机械键盘，兼顾便携、无线连接与较完整的客制化能力。",
+      "unit_price": "899.00",
+      "available_quantity": 10,
+      "active": true,
+      "attributes": {
+        "brand": "NuPhy",
+        "source_category": "矮轴机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless", "bluetooth", "2.4ghz"],
+        "layout": "75%",
+        "weight_class": "light",
+        "suitable_for": ["travel", "programming", "typing", "light_gaming"],
+        "suitable_for_zh": ["移动办公", "程序开发", "文字输入", "轻度游戏"],
+        "features": ["机械轴", "矮轴", "热插拔", "蓝牙", "2.4GHz", "有线连接", "RGB背光", "QMK/VIA"],
+        "feature_tags": ["mechanical_switch", "low_profile", "hot_swappable", "bluetooth", "2.4ghz", "wired", "rgb", "qmk_via"]
+      }
+    },
+    {
+      "sku": "SKU-030",
+      "name": "Lofree Flow Lite 84",
+      "category": "keyboard",
+      "description": "主打轻薄设计和柔和输入体验的 84 键矮轴机械键盘，更偏向办公、文字输入和桌面美学。",
+      "unit_price": "599.00",
+      "available_quantity": 14,
+      "active": true,
+      "attributes": {
+        "brand": "Lofree",
+        "source_category": "矮轴机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "low",
+        "connection": ["wireless", "bluetooth"],
+        "layout": "84-key",
+        "weight_class": "light",
+        "suitable_for": ["office", "typing", "travel", "desk_setup"],
+        "suitable_for_zh": ["日常办公", "文字输入", "移动办公", "桌面搭建"],
+        "features": ["机械轴", "矮轴", "无线连接", "蓝牙", "紧凑布局", "背光"],
+        "feature_tags": ["mechanical_switch", "low_profile", "wireless", "bluetooth", "compact", "backlit"]
+      }
+    },
+    {
+      "sku": "SKU-031",
+      "name": "HHKB Professional HYBRID Type-S",
+      "category": "keyboard",
+      "description": "以程序员和重度文字输入用户为核心群体的高端静电容键盘，采用独特 60% HHKB 配列。",
+      "unit_price": "2299.00",
+      "available_quantity": 5,
+      "active": true,
+      "attributes": {
+        "brand": "HHKB",
+        "source_category": "静电容键盘",
+        "keyboard_type": "electrocapacitive",
+        "noise_level": "silent",
+        "connection": ["bluetooth", "wired"],
+        "layout": "60%",
+        "weight_class": "medium",
+        "tier": "premium",
+        "suitable_for": ["programming", "typing", "office", "enthusiast"],
+        "suitable_for_zh": ["程序开发", "长时间文字输入", "专业办公", "键盘爱好者"],
+        "features": ["静电容", "蓝牙", "有线连接", "60%布局", "静音设计", "多设备连接"],
+        "feature_tags": ["electrocapacitive", "bluetooth", "wired", "60_percent", "silent", "multi_device"]
+      }
+    },
+    {
+      "sku": "SKU-032",
+      "name": "Leopold FC750RBT",
+      "category": "keyboard",
+      "description": "偏重稳定输入手感和做工的 TKL 机械键盘，设计低调，适合办公和长期文字输入。",
+      "unit_price": "899.00",
+      "available_quantity": 8,
+      "active": true,
+      "attributes": {
+        "brand": "Leopold",
+        "source_category": "机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["bluetooth", "wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "suitable_for": ["typing", "programming", "office", "light_gaming"],
+        "suitable_for_zh": ["文字输入", "程序开发", "日常办公", "轻度游戏"],
+        "features": ["机械轴", "蓝牙", "有线连接", "TKL布局", "PBT键帽"],
+        "feature_tags": ["mechanical_switch", "bluetooth", "wired", "pbt_keycaps", "tkl"]
+      }
+    },
+    {
+      "sku": "SKU-033",
+      "name": "CHERRY MX 3.0S Wireless",
+      "category": "keyboard",
+      "description": "采用 CHERRY MX 机械轴的全尺寸无线键盘，兼顾游戏、办公和传统机械键盘用户需求。",
+      "unit_price": "899.00",
+      "available_quantity": 11,
+      "active": true,
+      "attributes": {
+        "brand": "CHERRY",
+        "source_category": "无线机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz"],
+        "layout": "full-size",
+        "weight_class": "heavy",
+        "suitable_for": ["office", "gaming", "programming", "typing"],
+        "suitable_for_zh": ["日常办公", "游戏", "程序开发", "文字输入"],
+        "features": ["机械轴", "无线连接", "蓝牙", "2.4GHz", "全尺寸", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "wireless", "bluetooth", "2.4ghz", "full_size", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-034",
+      "name": "Akko MU01",
+      "category": "keyboard",
+      "description": "采用木质外壳设计的紧凑型机械键盘，强调客制化、外观和机械键盘输入体验。",
+      "unit_price": "699.00",
+      "available_quantity": 9,
+      "active": true,
+      "attributes": {
+        "brand": "Akko",
+        "source_category": "客制化机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz"],
+        "layout": "compact",
+        "material": "wood",
+        "weight_class": "medium",
+        "suitable_for": ["office", "typing", "desk_setup", "enthusiast"],
+        "suitable_for_zh": ["桌面搭建", "文字输入", "机械键盘爱好者", "日常办公"],
+        "features": ["机械轴", "热插拔", "无线连接", "蓝牙", "2.4GHz", "紧凑布局", "木质外壳"],
+        "feature_tags": ["mechanical_switch", "hot_swappable", "wireless", "bluetooth", "2.4ghz", "compact", "wood_body"]
+      }
+    },
+    {
+      "sku": "SKU-035",
+      "name": "Apple Magic Keyboard with Touch ID",
+      "category": "keyboard",
+      "description": "面向 Mac 用户的轻薄无线键盘，提供 Touch ID，强调苹果生态下的办公和日常输入体验。",
+      "unit_price": "1099.00",
+      "available_quantity": 13,
+      "active": true,
+      "attributes": {
+        "brand": "Apple",
+        "source_category": "无线办公键盘",
+        "keyboard_type": "membrane",
+        "noise_level": "low",
+        "connection": ["wireless", "bluetooth"],
+        "layout": "compact",
+        "weight_class": "light",
+        "suitable_for": ["office", "typing", "design", "daily_use", "mac"],
+        "suitable_for_zh": ["Mac办公", "文字输入", "设计工作", "日常使用"],
+        "features": ["无线连接", "蓝牙", "Touch ID", "轻薄设计", "Mac兼容", "充电"],
+        "feature_tags": ["wireless", "bluetooth", "touch_id", "thin", "mac_compatible", "rechargeable"]
+      }
+    },
+    {
+      "sku": "SKU-036",
+      "name": "Logitech K270",
+      "category": "keyboard",
+      "description": "经典全尺寸无线办公键盘，提供数字键盘，适合普通桌面办公环境。",
+      "unit_price": "129.00",
+      "available_quantity": 22,
+      "active": true,
+      "attributes": {
+        "brand": "Logitech",
+        "source_category": "无线办公键盘",
+        "keyboard_type": "membrane",
+        "noise_level": "medium",
+        "connection": ["wireless", "2.4ghz"],
+        "layout": "full-size",
+        "weight_class": "medium",
+        "suitable_for": ["office", "typing", "home"],
+        "suitable_for_zh": ["日常办公", "文字输入", "家庭使用"],
+        "features": ["无线连接", "2.4GHz", "全尺寸", "数字键盘", "薄膜键盘"],
+        "feature_tags": ["wireless", "2.4ghz", "full_size", "numeric_keypad", "membrane"]
+      }
+    },
+    {
+      "sku": "SKU-037",
+      "name": "Redragon K552 Kumara",
+      "category": "keyboard",
+      "description": "入门级 TKL 机械键盘，主打较低价格和机械轴手感，适合游戏入门用户。",
+      "unit_price": "179.00",
+      "available_quantity": 15,
+      "active": true,
+      "attributes": {
+        "brand": "Redragon",
+        "source_category": "机械游戏键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "suitable_for": ["gaming", "enthusiast_entry", "programming", "student"],
+        "suitable_for_zh": ["游戏", "机械键盘入门", "程序开发", "学生使用"],
+        "features": ["机械轴", "有线连接", "TKL布局", "背光", "紧凑布局"],
+        "feature_tags": ["mechanical_switch", "wired", "tkl", "backlit", "compact"]
+      }
+    },
+    {
+      "sku": "SKU-038",
+      "name": "AULA F75",
+      "category": "keyboard",
+      "description": "75% 配列三模机械键盘，主打较高性价比和较丰富的机械键盘功能。",
+      "unit_price": "279.00",
+      "available_quantity": 20,
+      "active": true,
+      "attributes": {
+        "brand": "AULA",
+        "source_category": "无线机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "75%",
+        "weight_class": "medium",
+        "suitable_for": ["gaming", "programming", "office", "enthusiast_entry"],
+        "suitable_for_zh": ["游戏", "程序开发", "日常办公", "机械键盘入门"],
+        "features": ["机械轴", "热插拔", "蓝牙", "2.4GHz", "有线连接", "75%布局", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "hot_swappable", "bluetooth", "2.4ghz", "wired", "75_percent", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-039",
+      "name": "Royal Kludge RK84",
+      "category": "keyboard",
+      "description": "紧凑型 84 键三模机械键盘，在较小体积下保留方向键和功能键。",
+      "unit_price": "319.00",
+      "available_quantity": 16,
+      "active": true,
+      "attributes": {
+        "brand": "Royal Kludge",
+        "source_category": "无线机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "84-key",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "gaming", "office", "dormitory"],
+        "suitable_for_zh": ["程序开发", "游戏", "日常办公", "宿舍使用"],
+        "features": ["机械轴", "蓝牙", "2.4GHz", "有线连接", "紧凑布局", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "bluetooth", "2.4ghz", "wired", "compact", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-040",
+      "name": "Akko 3068B Plus",
+      "category": "keyboard",
+      "description": "65% 紧凑型三模机械键盘，强调便携和客制化能力。",
+      "unit_price": "349.00",
+      "available_quantity": 13,
+      "active": true,
+      "attributes": {
+        "brand": "Akko",
+        "source_category": "无线机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "65%",
+        "weight_class": "light",
+        "suitable_for": ["gaming", "programming", "enthusiast_entry", "desk_setup"],
+        "suitable_for_zh": ["游戏", "程序开发", "机械键盘入门", "桌面搭建"],
+        "features": ["机械轴", "热插拔", "蓝牙", "2.4GHz", "有线连接", "65%布局", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "hot_swappable", "bluetooth", "2.4ghz", "wired", "65_percent", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-041",
+      "name": "Keychron C1 Pro",
+      "category": "keyboard",
+      "description": "偏办公和程序开发用途的 TKL 机械键盘，支持较丰富的按键自定义。",
+      "unit_price": "379.00",
+      "available_quantity": 14,
+      "active": true,
+      "attributes": {
+        "brand": "Keychron",
+        "source_category": "机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wired"],
+        "layout": "tkl",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "typing", "office", "light_gaming"],
+        "suitable_for_zh": ["程序开发", "文字输入", "日常办公", "轻度游戏"],
+        "features": ["机械轴", "有线连接", "TKL布局", "QMK/VIA", "可编程按键", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "wired", "tkl", "qmk_via", "programmable_keys", "rgb"]
+      }
+    },
+    {
+      "sku": "SKU-042",
+      "name": "VGN V98Pro",
+      "category": "keyboard",
+      "description": "采用 98 键紧凑全尺寸布局的三模机械键盘，兼顾数字键盘和桌面空间。",
+      "unit_price": "429.00",
+      "available_quantity": 12,
+      "active": true,
+      "attributes": {
+        "brand": "VGN",
+        "source_category": "无线机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "98-key",
+        "weight_class": "medium",
+        "suitable_for": ["office", "gaming", "programming", "numeric_input"],
+        "suitable_for_zh": ["办公", "游戏", "程序开发", "数字输入"],
+        "features": ["机械轴", "无线连接", "蓝牙", "2.4GHz", "有线连接", "98键布局", "数字键盘"],
+        "feature_tags": ["mechanical_switch", "wireless", "bluetooth", "2.4ghz", "wired", "98_key", "numeric_keypad"]
+      }
+    },
+    {
+      "sku": "SKU-043",
+      "name": "Akko 5075B Plus",
+      "category": "keyboard",
+      "description": "75% 配列三模热插拔机械键盘，兼顾游戏、办公和客制化玩法。",
+      "unit_price": "479.00",
+      "available_quantity": 11,
+      "active": true,
+      "attributes": {
+        "brand": "Akko",
+        "source_category": "无线客制化机械键盘",
+        "keyboard_type": "mechanical",
+        "noise_level": "medium",
+        "connection": ["wireless", "bluetooth", "2.4ghz", "wired"],
+        "layout": "75%",
+        "weight_class": "medium",
+        "suitable_for": ["programming", "gaming", "office", "custom_entry"],
+        "suitable_for_zh": ["程序开发", "游戏", "日常办公", "客制化入门"],
+        "features": ["机械轴", "热插拔", "蓝牙", "2.4GHz", "有线连接", "75%布局", "RGB背光"],
+        "feature_tags": ["mechanical_switch", "hot_swappable", "bluetooth", "2.4ghz", "wired", "75_percent", "rgb"]
+      }
+    }
+  ]
+}

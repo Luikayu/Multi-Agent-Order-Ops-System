@@ -1,0 +1,38 @@
+{
+  "data_version": "2026-09-27",
+  "users": [
+    {
+      "user_id": "USER-001",
+      "account_age_days": 980,
+      "historical_order_count": 42,
+      "chargeback_count": 0,
+      "failed_payment_count_30d": 0,
+      "orders_last_hour": 1,
+      "average_order_amount": "286.50",
+      "identity_verified": true,
+      "account_status": "active"
+    },
+    {
+      "user_id": "USER-002",
+      "account_age_days": 120,
+      "historical_order_count": 8,
+      "chargeback_count": 1,
+      "failed_payment_count_30d": 1,
+      "orders_last_hour": 2,
+      "average_order_amount": "512.00",
+      "identity_verified": true,
+      "account_status": "active"
+    },
+    {
+      "user_id": "USER-003",
+      "account_age_days": 3,
+      "historical_order_count": 1,
+      "chargeback_count": 2,
+      "failed_payment_count_30d": 5,
+      "orders_last_hour": 9,
+      "average_order_amount": "1899.00",
+      "identity_verified": false,
+      "account_status": "restricted"
+    }
+  ]
+}
